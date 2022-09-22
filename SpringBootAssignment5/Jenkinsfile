@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('clean and install') {
             steps {
-               bat 'mvn clean -f SpringBootProject'
+               bat 'mvn clean -f SpringBootAssignment5/pom.xml'
             }
         }
         stage('Package') {
